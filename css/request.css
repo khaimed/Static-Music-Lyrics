@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+.header
+{
+    background: #e8e8e8;
+    width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+}
+.logo
+{
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo svg{
+    width: 256px;
+}
+form{
+    text-align: center;
+    padding: 40px 0;
+}
+option
+{
+    color: #555;
+    text-align: left;
+}
+ul
+{
+    list-style: none;
+}
+label:not(.cara):not(.label-checkbox)
+{
+    padding: 5px 0;
+    font-size: 14px;
+    color: #aaa;
+}
+.cara
+{
+    font-size: 12px;
+    color: #999;
+}
+input:not([type=radio]):not([type="checkbox"]), textarea
+{
+        width: 360px;
+        padding: 10px 0;
+        padding-left: 10px;
+        margin: 10px 0;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        box-shadow: 1px 1px 5px #ccc;
+}
+input[placeholder],textarea[placeholder]
+{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 5px 0;
+}
+select:not(.Date) /* all select but not select date */
+{
+    width: 370px;
+    padding: 10px 0;
+    padding-left: 5px;
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    color:#888;
+    box-shadow: 1px 1px 5px #ccc;
+    border-radius: 4px;
+
+}
+.Diver
+{
+    margin-top: 15px;
+}
+.Date /*for select date */
+{
+    width: 120px ;
+    padding: 10px 0;
+    padding-left: 5px;
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    color:#aaa;
+    box-shadow: 1px 1px 5px #ccc;
+    border-radius: 3px;
+}
+
+.Cnx,.mdp /* connexion and password*/
+{
+    text-decoration: none;
+    color: #21A38D;
+}
+input[type=radio] + .label-radio
+{
+    display: inline-block;
+    cursor: pointer;
+}
+.label-checkbox /*Label for input type checkbox*/
+{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #888;
+
+}
+input[type="checkbox"] + .label-checkbox /* input type checkbox and label*/
+{
+    display: inline-block;
+    cursor: pointer;
+}
+input[type="checkbox"] /* Input type checkbox */
+{
+    display: none;
+}
+input[type="checkbox"] + .label-checkbox:before /* Before input type checkbox and label  */
+{
+    color: transparent;
+    font-size: 13px;
+    content: "\2714";
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding-bottom: 1px;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+input[type="checkbox"]:checked + .label-checkbox:before /* Before input type checkbox and label on checked*/
+{
+    background-color: #21A38D;
+    border-color: #21A38D;
+    color: #fff;
+}
+input[type="checkbox"] + .label-checkbox:active:before
+{
+    transform: scale(1);
+    transition: 1s ease;
+}
+.btn /* Button */
+{
+    min-width: 18%;
+    font-family: arial;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #21A38D;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+.btn:hover /* Button hover*/
+{
+    background-color: #10927C;
+    cursor: pointer;
+}
+.barre
+{
+    margin-top: 10px;
+    margin-bottom: 0;
+    border:1px solid #eee;
+}
+.nocompte /*lien for no have compte*/
+{
+    padding: 10px 40px;
+    background-color: #fff;
+    border: 2px solid #555;
+    border-radius: 20px;
+    color: #555;
+    text-decoration: none;
+}
+.nocompte:hover /* hover for no have compte */
+{
+    transition: 700ms;
+    background-color: #555;
+    color: #fff;
+}
+footer
+{
+    background-color: #eee;
+    padding: 30px 0;
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-top: 1px solid #ccc;
+}
+@media (max-width: 400px ){
+    input:not([type=radio]):not([type="checkbox"]), textarea{
+        width: 250px;
+    }
+    select:not(.Date){
+        width: 250px;
+    }
+}
