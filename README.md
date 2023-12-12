@@ -15,13 +15,13 @@ This project is a simple static website that displays music lyrics. It is design
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/khaimed/Music-Lyrics.git
+    git clone https://github.com/khaimed/Static-Music-Lyrics.git
     ```
 
 2. **Navigate to the Project Directory:**
 
     ```bash
-    cd Music-Lyrics
+    cd Static-Music-Lyrics
     ```
 
 3. **Open `index.html` in a Browser:**
