@@ -1,4 +1,4 @@
-# Static Music Lyrics Website
+# Static Music Lyrics
 
 ## Overview
 
