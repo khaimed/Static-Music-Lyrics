@@ -1,16 +1,16 @@
 # Static Music Lyrics Website
 
-## Overview
+## Overview:
 
 This project is a simple static website that displays music lyrics. It is designed to be lightweight, easy to use, and requires no server-side processing.
 
-## Features
+## Features:
 
 - **Static Content:** All content is static, making it easy to deploy on various hosting platforms.
 - **Responsive Design:** The website is designed to be accessible and usable across different devices and screen sizes.
 - **Minimalistic Interface:** Focuses on presenting lyrics in a clean and straightforward manner.
 
-## How to Use
+## How to Use:
 
 1. **Clone the Repository:**
 
@@ -27,7 +27,7 @@ This project is a simple static website that displays music lyrics. It is design
 3. **Open `index.html` in a Browser:**
     - Simply open the `index.html` file in your preferred web browser.
 
-## Deployment
+## Deployment:
 
 The website can be deployed to GitHub Pages in just a few steps:
 
@@ -38,7 +38,7 @@ The website can be deployed to GitHub Pages in just a few steps:
 
 GitHub Pages will provide a URL where your static site will be hosted.
 
-## Contact
+## Contact:
 
 For any questions or suggestions, feel free to contact the project maintainer:
 
